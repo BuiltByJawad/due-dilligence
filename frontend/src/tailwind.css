@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+    color: #101419;
+    background: radial-gradient(circle at top, #fdf5ec 0%, #f4f1ed 45%, #f2ebe3 100%);
+  }
+}
